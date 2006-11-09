@@ -4,4 +4,3 @@
 - umozliwia automatyczne aktualizowanie informacji o posiadanym oprogramowaniu
 - kontrolowanie terminów wa¿noœci licencji
 - tworzenie raportów (ilosc licencji poszczegolnych produktow, oprogramowanie ktorego licecja wygasla, lokalizacja instalacji oprogramownia)
--
