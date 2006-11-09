@@ -1,0 +1,44 @@
+S3. Dodaj nowe oprogramowanie.
+
+S3.1. Opis
+Ten przypadek u¿ycia opisuje proces dodania nowego oprogramowania do bazy danych w firmie.
+
+S3.2. Wspierane procedury i procesy biznesowe.
+Obs³uga systemu informatycznego „Ewidencja oprogramowania”.
+
+S3.3. U¿ytkownicy
+Pracownicy firmy.
+
+S3.4. Warunki pocz¹tkowe 
+W bazie pracowników firmy jest zarejestrowany przynajmniej jeden pracownik. 
+
+S3.5. Warunki koñcowe
+Baza danych zostaje zaktualizowana o nowe oprogramowanie.
+
+S3.6. Przebieg g³ówny
+	S6.1. Przypadek u¿ycia rozpoczyna siê, pomyœlnym zakoñczeniem scenariusza S2 		(logowanie do systemu).
+	S6.2. System wyœwietla ekran powitalny.
+	S6.3. Pracownik wprowadza nazwê, producenta, wersjê, numer seryjny oprogramowania, 	typ licencji, klucz licencji, iloœæ stanowisk, data rozpoczêcia licencji, data wa¿noœci licencji.
+	S6.4. Pracownik skanuje licencje.
+	S6.5. Pracownik udostêpnia systemowi wersjê instalacyjn¹ oprogramowania.
+	S6.6. System wykonuje kopiê zapasow¹ wersji instalacyjnej oprogramowania. 
+	S6.7. Przypadek u¿ycia koñczy siê.
+
+S3.7. Przebiegi alternatywne
+	PA1.1. Pracownik nie ma nazwy ani has³a pozwalaj¹cego na dostêp
+	PA1.2. System umo¿liwia rejestracjê pracownika wed³ug scenariusza S1
+.
+S3.8. Sytuacje wyj¹tkowe
+	SW1.1. Brak komunikacji z systemem uwierzytelniaj¹cym
+	Akcja: system wyœwietla okno z informacj¹ o awarii i proœb¹ o póŸniejsze logowanie
+
+S3.9. Regu³y
+Istniej mo¿liwoœæ tylko trzykrotnej próby logowania.
+
+S3.10. Wymagania niefunkcjonalne
+Przypadek musi realizowaæ siê na wszystkich platformach sprzêtowych.
+Informacja o mo¿liwoœci w³¹czenia klawisza Caps Lock
+
+S3.11. Uwagi
+Nale¿y wykonaæ scenariusz logowania do systemu (S2) i rejestracji (S1).
+

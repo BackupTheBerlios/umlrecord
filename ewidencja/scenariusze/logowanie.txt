@@ -28,15 +28,15 @@ S2.7. Przebiegi alternatywne
 	PA1.1. Pracownik nie ma nazwy ani has³a pozwalaj¹cego na dostêp
 	PA1.2. System umo¿liwia rejestracjê u¿ytkownika wed³ug scenariusza S1
 
-	PA2.1. U¿ytkownik podaje nieprawid³owe dane
+	PA2.1. Pracownik podaje nieprawid³owe dane
 	PA2.2. System wyœwietla ponownie ekran powitalny
 
-	PA3.1. U¿ytkownik nie pamiêta has³a lub loginu
+	PA3.1. Pracownik  nie pamiêta has³a lub loginu
 	PA3.2  System umo¿liwia przypomnienie has³a wed³ug scenariusz S5
 
-	PA4.1. U¿ytkownik podaje prawid³owe dane ale system jest niedostêpny
+	PA4.1. Pracownik  podaje prawid³owe dane ale system jest niedostêpny
 
-	PA5.1. U¿ytkownik podaje nieprawid³owe dane
+	PA5.1. Pracownik  podaje nieprawid³owe dane
 	PA5.2. System zwiêksza liczbê nieprawid³owych logowañ
 	PA5.3. System sprawdza iloœæ nieprawid³owych logowañ- gdy jest wiêksza od 3 nastêpuje 	blokowanie konta.
 	PA5.4. System wyœwietla informacje o zablokowaniu konta.
@@ -48,12 +48,10 @@ S2.8. Sytuacje wyj¹tkowe
 S2.9. Regu³y
 Istniej mo¿liwoœæ tylko trzykrotnej próby logowania.
 
-Klient mo¿e zalogowaæ siê w systemie jeœli nie jest na czarnej liœcie
-
 S2.10. Wymagania niefunkcjonalne
 Przypadek musi realizowaæ siê na wszystkich platformach sprzêtowych.
 Informacja o mo¿liwoœci w³¹czenia klawisza Caps Lock
-System nie przechowuje informacji o identyfikatorach u¿ytkowników.
+
 
 S2.11. 
-Nale¿y wykonaæ scenariusze rejestracji u¿ytkownika (S1).  
+Nale¿y wykonaæ scenariusze rejestracji pracownika (S1).  
