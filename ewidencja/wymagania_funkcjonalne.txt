@@ -3,5 +3,5 @@
 - umozliwia ewidencje niezainstalowanego oprogramowania
 - umozliwia automatyczne aktualizowanie informacji o posiadanym oprogramowaniu
 - kontrolowanie terminów wa¿noœci licencji
-- tworzenie raportów (iloœæ licencji poszczegolnych produktów, oprogramowanie którego licecja wygas³a, lokalizacja instalacji oprogramownia)
-- 
+- tworzenie raportów (ilosc licencji poszczegolnych produktow, oprogramowanie ktorego licecja wygasla, lokalizacja instalacji oprogramownia)
+-
