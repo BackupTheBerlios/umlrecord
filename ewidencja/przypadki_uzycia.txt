@@ -1,0 +1,11 @@
+Zaloguj siê - nadaje odpowiednie prawa dostêpu dla pracownika
+
+Dodaj oprogramowanie - pracownik dodaje rekord zawierajacy informacje o oprogramowaniu do bazy danych
+
+Usun oprogramowanie- pracownik usuwa rekord z bazy danych
+
+Drukuj raport- pracownik drukuje raport informujacy o stanie bazy danych
+
+
+
+
