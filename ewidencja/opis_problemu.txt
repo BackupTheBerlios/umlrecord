@@ -1,0 +1,6 @@
+Tworzymy oprogramowanie umo¿liwiaj¹ce ewidencje oprogramowania i licencji w danej firmie.
+
+Pracownik firmy dodaje nowe oprogramowanie do bazy danych podaj¹c podstawowe informacje o nim (nazwa, nazwa producenta,
+numer seryjny, numer licencji, itp.)
+
+Bedzie istniala mozliwosc automatycznego aktualizowania bazy danych oprogramowania poprzez zbieranie informacji o oprogramowaniu zainstalowanym na stacjach roboczych.
