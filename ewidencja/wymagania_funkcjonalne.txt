@@ -1,6 +1,6 @@
-- umozliwia ewidencje zainstalowanego oprogramowania wraz z licencjami
+- umozliwia ewidencje zainstalowanego oprogramowania wraz z licencjami i opisem
 - umozliwia przechowywanie podstawowych informacji o oprogramowaniu (nazwa, numer seryjny, nazwa producenta, itp.)
 - umozliwia ewidencje niezainstalowanego oprogramowania
 - umozliwia automatyczne aktualizowanie informacji o posiadanym oprogramowaniu
-- kontrolowanie terminów wa¿noœci licencji
+- kontrolowanie terminów wa¿noœci licencji- system sprawdza date waznosci licencji i informuje o czasie pozostalym do jej wygasniecia
 - tworzenie raportów (ilosc licencji poszczegolnych produktow, oprogramowanie ktorego licecja wygasla, lokalizacja instalacji oprogramownia)
