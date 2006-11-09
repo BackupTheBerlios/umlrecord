@@ -1,0 +1,7 @@
+Pracownik - uzyytkownik systemu, dodaje informacje o oprogramowaniu i licencjach wraz z opisem,
+tworzy wersje instalacyjne oprogramowania bedacego w firmie, opcjonalnie kseruje licencje, 
+tworzy raporty .
+
+Wlasciciel - szef firmy, dla niego sa generowane raporty
+
+Cienki klient - aplikacja zbierajaca informacje o zainstalowanym oprogramowaniu na danej stacji roboczej.
