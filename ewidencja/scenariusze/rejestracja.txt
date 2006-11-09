@@ -1,0 +1,42 @@
+S1. Rejestracja 
+
+S1.1. Opis
+Funkacja umozliwia stworzenie konta pracownika.
+
+S1.2. Wspierane procedury i procesy biznesowe
+Obsluga systemu ewidencji oprogramowania.
+
+S1.3. U¿ytkownicy
+Pracownicy firmy
+
+S1.4. Warunki pocz¹tkowe
+Brak
+
+S1.5. Warunki koñcowe
+Zostaje utworzone konto dla pracownikow firmy (wszyscy pracownicy korzystaj¹ z jednego konta)
+
+S1.6. Przebieg g³ówny
+	S6.1. Przypadek u¿ycia rozpoczyna siê, gdy u¿ytkownik wl¹cza aplikacjê.
+	S6.2. System wyœwietla ekran powitalny.
+	S6.3. Pracownik klika przycisk "Zarejestruj"
+	S6.4. Pracownik wprowadza proponowany login i has³o.
+	S6.5. System weryfikuje podane informacje.
+	S6.6. System tworzy konto dla pracownika.
+	S6.7. Przypadek u¿ycia koñczy siê.
+
+S1.7. Przebiegi alternatywne
+	razie brak:)
+
+S1.8. Sytuacje wyjatkowe
+	SW1.1. Pracownikowi nie udalo siê pol¹czyæ z systemem.
+	Akcja: System wyœwietla odpowiedni¹ informacjê z zachêta do poŸniejszej próby.
+
+S1.9. Regu³y
+Login- ci¹g 5-8 znaków alfanumerycznych plus znak "_".Nie mo¿e zaczynac siê od cyfry i znaku"_".
+Haslo- ci¹g minimum 10 znaków alfanumerycznych. 
+
+S1.10 Wymagania niefunkcjonalne
+Przypadek jest realizowany na ró¿nych platformach sprzetowych.
+
+S1.11 Uwagi i pytania koncowe
+Brak
