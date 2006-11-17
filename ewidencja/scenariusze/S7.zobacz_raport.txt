@@ -1,0 +1,43 @@
+S7. Zobacz raport.
+
+S7.1. Opis
+Ten przypadek u¿ycia opisuje proces wyœwietlenia raportu.
+
+S7.2. Wspierane procedury i procesy biznesowe.
+Obs³uga systemu informatycznego „Ewidencja oprogramowania”.
+
+S7.3. U¿ytkownicy
+W³aœciciel firmy.
+
+S7.4. Warunki pocz¹tkowe 
+W bazie danych istnieje oprogramowanie.
+
+S7.5. Warunki koñcowe
+Zostaje wygenerowany raport.
+
+S7.6. Przebieg g³ówny
+	S6-1. System wyswietla okno powitalne.
+	S6-2. W³aœciciel wybiera rodzaj raportu.
+	S6-3. W³aœciciel okreœla dane wejœciowe do raportu.
+	S6-4. W³aœciciel okreœla sposób prezentacji raportu.
+	S6-5. Informacje zostaj¹ wys³ane do bazy danych. 
+	S6-6. Raport zostaje wygenerowany.
+	S6-7. Przypadek u¿ycia koñczy siê.
+	
+S7.7. Przebiegi alternatywne
+	PA1.1. Nie istnieje rodzaj raportu, który chce w³aœciciel.
+	PA1.2. W³aœciciel kontaktuje siê z firm¹ tworz¹c¹ oprogramowanie.
+
+S7.8. Sytuacje wyj¹tkowe
+	SW1.1. Brak komunikacji z baz¹ danych
+	Akcja: system wyœwietla okno z informacj¹ o awarii i proœb¹ o kontakt z administratorem.
+	
+S7.9. Regu³y
+Brak
+
+S7.10. Wymagania niefunkcjonalne
+Przypadek musi realizowaæ siê na wszystkich platformach sprzêtowych.
+
+S7.11. Uwagi
+Brak
+

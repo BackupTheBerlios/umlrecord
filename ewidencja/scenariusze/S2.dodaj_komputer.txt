@@ -1,0 +1,41 @@
+S2. Dodaj nowy komputer
+
+S2.1. Opis
+Ten przypadek u¿ycia opisuje proces dodania nowego komputera do bazy danych w firmie.
+
+S2.2. Wspierane procedury i procesy biznesowe.
+Obs³uga systemu informatycznego „Ewidencja oprogramowania”.
+
+S2.3. U¿ytkownicy
+Pracownicy firmy.
+
+S2.4. Warunki pocz¹tkowe 
+Dany komputer nie znajduje siê w bazie danych. 
+
+S2.5. Warunki koñcowe
+Baza danych zostaje zaktualizowana o nowy komputer.
+
+S2.6. Przebieg g³ówny
+	S6-1. System wyœwietla ekran powitalny.
+	S6-2. Pracownik podaje identyfikator komputera, opis, adres ip, który chce dodaæ.
+	S6-3. Wyœwietlenie komunikatu o dodaniu komputera do bazy danych.
+	S6-4. Przypadek u¿ycia koñczy siê.
+
+S2.7. Przebiegi alternatywne
+	PA1.1. W bazie danych istnieje komputer o danym identyfikatorze.
+	PA1.2. System wyœwietla okno z informacj¹, ¿e istnieje komputer o danym identyfikatorze.
+	PA1.3. Przypadek u¿ycia powraca do punktu S2.6.	
+
+S2.8. Sytuacje wyj¹tkowe
+	SW1.1. Brak komunikacji z baz¹ danych
+	Akcja: system wyœwietla okno z informacj¹ o awarii i proœb¹ o kontakt z administratorem.
+
+S2.9. Regu³y
+Brak
+
+S2.10. Wymagania niefunkcjonalne
+Przypadek musi realizowaæ siê na wszystkich platformach sprzêtowych.
+
+S2.11. Uwagi
+Brak
+

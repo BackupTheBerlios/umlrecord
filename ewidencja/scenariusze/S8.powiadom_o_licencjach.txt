@@ -1,0 +1,37 @@
+S7. Powiadamianie o licencjach.
+
+S8.1. Opis
+Ten przypadek u¿ycia opisuje proces wyswietlania informacji o koñcz¹cych siê licencjach.
+
+S8.2. Wspierane procedury i procesy biznesowe.
+Obs³uga systemu informatycznego „Ewidencja oprogramowania”.
+
+S8.3. U¿ytkownicy
+W³aœciciel i pracownicy firmy.
+
+S8.4. Warunki pocz¹tkowe 
+W bazie danych istnieje oprogramowanie.
+
+S8.5. Warunki koñcowe
+Zostaje wygenerowana informacja o licencjach.
+
+S8.6. Przebieg g³ówny
+	S6-1. System wyswietla okno z komunikatem o koñcz¹cych siê licencjach.
+	S6-2. Przypadek u¿ycia koñczy siê.
+	
+S8.7. Przebiegi alternatywne
+Brak
+
+S8.8. Sytuacje wyj¹tkowe
+	SW1.1. Brak komunikacji z baz¹ danych
+	Akcja: system wyœwietla okno z informacj¹ o awarii i proœb¹ o kontakt z administratorem.
+	
+S8.9. Regu³y
+Brak
+
+S8.10. Wymagania niefunkcjonalne
+Przypadek musi realizowaæ siê na wszystkich platformach sprzêtowych.
+
+S8.11. Uwagi
+Brak
+

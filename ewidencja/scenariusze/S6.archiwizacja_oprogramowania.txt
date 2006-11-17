@@ -1,0 +1,38 @@
+S6. Archiwizacja oprogramowania.
+
+S6.1. Opis
+Ten przypadek u¿ycia opisuje proces archiwizacji oprogramowania.
+
+S6.2. Wspierane procedury i procesy biznesowe.
+Obs³uga systemu informatycznego „Ewidencja oprogramowania”.
+
+S6.3. U¿ytkownicy
+Pracownicy firmy.
+
+S6.4. Warunki pocz¹tkowe 
+Brak
+
+S6.5. Warunki koñcowe
+Oprogramowanie zostaje dodane do archiwum.
+
+S6.6. Przebieg g³ówny
+	S6-1. Pracownik umieszcza dysk z oprogramowaniem w noœniku.
+	S6-2. Pracownik kopiuje oprogramowanie do katalogu z przydzielonym identyfikatorze.
+	S6-7. Przypadek u¿ycia koñczy siê.
+
+S6.7. Przebiegi alternatywne
+Brak
+
+S6.8. Sytuacje wyj¹tkowe
+	SW1.1. Awaria dysku, na którym znajduje siê archiwum.
+	Akcja: system wyœwietla okno z informacj¹ o awarii dysku i proœb¹ o kontakt z administratorem.
+	
+S6.9. Regu³y
+Brak
+
+S6.10. Wymagania niefunkcjonalne
+Przypadek musi realizowaæ siê na wszystkich platformach sprzêtowych.
+
+S6.11. Uwagi
+Brak
+

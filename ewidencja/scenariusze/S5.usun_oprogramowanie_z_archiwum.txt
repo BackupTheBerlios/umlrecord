@@ -1,0 +1,37 @@
+S3. Usuñ oprogramowanie z archiwum.
+
+S5.1. Opis
+Ten przypadek u¿ycia opisuje proces usuwania oprogramowania z archiwum.
+
+S5.2. Wspierane procedury i procesy biznesowe.
+Obs³uga systemu informatycznego „Ewidencja oprogramowania”.
+
+S5.3. U¿ytkownicy
+Pracownicy firmy.
+
+S5.4. Warunki pocz¹tkowe 
+Okreœlone oprogramowanie musi znajdowaæ sie w archiwum.
+
+S5.5. Warunki koñcowe
+Oprogramowanie zostaje usuniête z archiwum.
+
+S5.6. Przebieg g³ówny
+	S6-1. System usuwa oprogramowanie z archiwum.
+	S6-2. Przypadek u¿ycia koñczy siê.
+
+S5.7. Przebiegi alternatywne
+Brak
+
+S5.8. Sytuacje wyj¹tkowe
+	SW1.1. Awaria dysku, na którym znajduje siê archiwum.
+	Akcja: system wyœwietla okno z informacj¹ o awarii dysku i proœb¹ o kontakt z administratorem.
+	
+S5.9. Regu³y
+Brak
+
+S5.10. Wymagania niefunkcjonalne
+Przypadek musi realizowaæ siê na wszystkich platformach sprzêtowych.
+
+S5.11. Uwagi
+Brak
+

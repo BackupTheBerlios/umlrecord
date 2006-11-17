@@ -1,0 +1,44 @@
+S1. Dodaj nowe oprogramowanie.
+
+S1.1. Opis
+Ten przypadek u¿ycia opisuje proces dodania nowego oprogramowania do bazy danych w firmie.
+
+S1.2. Wspierane procedury i procesy biznesowe.
+Obs³uga systemu informatycznego „Ewidencja oprogramowania”.
+
+S1.3. U¿ytkownicy
+Pracownicy firmy.
+
+S1.4. Warunki pocz¹tkowe 
+Okreœlone komputery znajduj¹ siê w bazie danych. 
+
+S1.5. Warunki koñcowe
+Baza danych zostaje zaktualizowana o nowe oprogramowanie.
+
+S1.6. Przebieg g³ówny
+	S6-1. System wyœwietla ekran powitalny.
+	S6-2. Pracownik wybiera numery komputerów do których ma przypisaæ oprogramowanie.
+	S6-3. Pracownik wprowadza nazwê, producenta, wersjê, numer seryjny oprogramowania, typ licencji, klucz licencji, iloœæ stanowisk, datê zakupu, termin up³ywu licencji.
+	S6-4. Pracownik mo¿e wprowadziæ plik graficzny z zeskanowan¹ licencj¹.
+	S6-5. Pracownik udostêpnia systemowi wersjê instalacyjn¹ oprogramowania.
+	S6-6. System wykonuje kopiê zapasow¹ wersji instalacyjnej oprogramowania. 
+	S6-7. Przypadek u¿ycia koñczy siê.
+
+S1.7. Przebiegi alternatywne
+	PA1.1. W bazie danych nie istnieje komputer.
+	PA1.2. System umo¿liwia dodane nowego komputera wed³ug scenariusza S2.
+	PA1.3. Przypadek u¿ycia powraca do punktu S1.6.	
+
+S1.8. Sytuacje wyj¹tkowe
+	SW1.1. Brak komunikacji z baz¹ danych
+	Akcja: system wyœwietla okno z informacj¹ o awarii i proœb¹ o kontakt z administratorem.
+
+S1.9. Regu³y
+Brak
+
+S1.10. Wymagania niefunkcjonalne
+Przypadek musi realizowaæ siê na wszystkich platformach sprzêtowych.
+
+S1.11. Uwagi
+Brak
+
