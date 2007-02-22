@@ -25,35 +25,35 @@ CHARACTER SET utf8
 AUTO_INCREMENT = 0;
 
 Create table oprogramowanie (
-	id_oprogramowania Smallint NOT NULL,
+	id_oprogramowanie Smallint NOT NULL,
 	nazwa Varchar(30) NOT NULL,
 	producent Varchar(20) NOT NULL,
 	wersja Varchar(20),
 	nr_seryjny Varchar(30) NOT NULL,
-	klucz_licencji Varchar(20),
+	klucz_licencji Varchar(30),
 	data_zakupu Date NOT NULL,
 	termin_licencji Date NOT NULL,
- Primary Key (id_oprogramowania)) ENGINE = InnoDB
+ Primary Key (id_oprogramowanie)) ENGINE = InnoDB
 CHARACTER SET utf8
 AUTO_INCREMENT = 0;
 
 Create table oprogramowanie_temp (
-	id_oprogramowania Smallint NOT NULL,
+	id_oprogramowanie Smallint NOT NULL,
 	id_komputer Smallint NOT NULL,
 	nazwa Varchar(30) NOT NULL,
 	producent Varchar(20) NOT NULL,
 	wersja Varchar(20),
 	nr_seryjny Varchar(30) NOT NULL,
-	klucz_licencji Varchar(20),
+	klucz_licencji Varchar(30),
 	data_zakupu Date NOT NULL,
 	termin_licencji Date NOT NULL,
- Primary Key (id_oprogramowania)) ENGINE = InnoDB
+ Primary Key (id_oprogramowanie)) ENGINE = InnoDB
 CHARACTER SET utf8
 AUTO_INCREMENT = 0;
 
 Create table komp_opr (
 	id_komputer Smallint NOT NULL,
-	id_oprogramowania Smallint NOT NULL,
+	id_oprogramowanie Smallint NOT NULL,
 	id_komp_opr Smallint NOT NULL AUTO_INCREMENT,
  Primary Key (id_komp_opr)) ENGINE = InnoDB
 CHARACTER SET utf8
@@ -61,7 +61,7 @@ AUTO_INCREMENT = 0;
 
 
 Alter table komp_opr add Foreign Key (id_komputer) references komputery (id_komputer) on delete cascade on update cascade;
-Alter table komp_opr add Foreign Key (id_oprogramowania) references oprogramowanie (id_oprogramowania) on delete cascade on update cascade;
+Alter table komp_opr add Foreign Key (id_oprogramowanie) references oprogramowanie (id_oprogramowanie) on delete cascade on update cascade;
 
 
 /* Users permissions */
