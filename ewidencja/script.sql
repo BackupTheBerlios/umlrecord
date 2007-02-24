@@ -1,12 +1,12 @@
 /*
 Created		2007-02-22
-Modified	2007-02-22
-Project		Ewidencja oprogramowania
+Modified		2007-02-22
+Project		
 Model		
 Company		
-Author		Tomek Pietrzyk
+Author		
 Version		
-Database	mySQL 4.1 
+Database		mySQL 4.1 
 */
 
 
@@ -19,7 +19,7 @@ drop table IF EXISTS komputery;
 Create table komputery (
 	id_komputer Smallint NOT NULL AUTO_INCREMENT,
 	nazwa Varchar(20) NOT NULL,
-	opis Text,
+	numer_ip Varchar(15) NOT NULL,
  Primary Key (id_komputer)) ENGINE = InnoDB
 CHARACTER SET utf8
 AUTO_INCREMENT = 0;
@@ -33,21 +33,26 @@ Create table oprogramowanie (
 	klucz_licencji Varchar(30),
 	data_zakupu Date NOT NULL,
 	termin_licencji Date NOT NULL,
+	typ_licencji Varchar(15),
+	ilosc_stanowisk Int,
+	komputer Varchar(20),
+	url_scan Varchar(30),
  Primary Key (id_oprogramowanie)) ENGINE = InnoDB
 CHARACTER SET utf8
 AUTO_INCREMENT = 0;
 
 Create table oprogramowanie_temp (
-	id_oprogramowanie Smallint NOT NULL,
+	id_oprogramowanie_temp Smallint NOT NULL AUTO_INCREMENT,
 	id_komputer Smallint NOT NULL,
 	nazwa Varchar(30) NOT NULL,
-	producent Varchar(20) NOT NULL,
+	producent Varchar(20),
 	wersja Varchar(20),
-	nr_seryjny Varchar(30) NOT NULL,
+	nr_seryjny Varchar(30),
 	klucz_licencji Varchar(30),
-	data_zakupu Date NOT NULL,
-	termin_licencji Date NOT NULL,
- Primary Key (id_oprogramowanie)) ENGINE = InnoDB
+	data_zakupu Date,
+	termin_licencji Date,
+	numer_ip Varchar(15),
+ Primary Key (id_oprogramowanie_temp)) ENGINE = InnoDB
 CHARACTER SET utf8
 AUTO_INCREMENT = 0;
 
