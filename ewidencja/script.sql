@@ -1,6 +1,6 @@
 /*
 Created		2007-02-22
-Modified		2007-02-22
+Modified		2007-02-24
 Project		
 Model		
 Company		
@@ -51,7 +51,7 @@ Create table oprogramowanie_temp (
 	klucz_licencji Varchar(30),
 	data_zakupu Date,
 	termin_licencji Date,
-	numer_ip Varchar(15),
+	numer_ip Varchar(15) NOT NULL,
  Primary Key (id_oprogramowanie_temp)) ENGINE = InnoDB
 CHARACTER SET utf8
 AUTO_INCREMENT = 0;
