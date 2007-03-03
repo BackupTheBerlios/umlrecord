@@ -45,7 +45,7 @@ AUTO_INCREMENT = 0;
 Create table oprogramowanie_temp (
 	id_oprogramowanie_temp Smallint NOT NULL AUTO_INCREMENT,
 	id_komputer_temp Smallint NOT NULL,
-	nazwa Varchar(30) NOT NULL,
+	nazwa Varchar(70) NOT NULL,
 	producent Varchar(20),
 	wersja Varchar(20),
 	nr_seryjny Varchar(30),
