@@ -10,7 +10,6 @@ Database		mySQL 4.1
 */
 
 
-drop table IF EXISTS komp_opr_temp;
 drop table IF EXISTS komputery_temp;
 drop table IF EXISTS komp_opr;
 drop table IF EXISTS oprogramowanie_temp;
@@ -45,7 +44,7 @@ AUTO_INCREMENT = 0;
 
 Create table oprogramowanie_temp (
 	id_oprogramowanie_temp Smallint NOT NULL AUTO_INCREMENT,
-	id_komputer Smallint NOT NULL,
+	id_komputer_temp Smallint NOT NULL,
 	nazwa Varchar(30) NOT NULL,
 	producent Varchar(20),
 	wersja Varchar(20),
@@ -53,7 +52,6 @@ Create table oprogramowanie_temp (
 	klucz_licencji Varchar(30),
 	data_zakupu Date,
 	termin_licencji Date,
-	numer_ip Varchar(15) NOT NULL,
  Primary Key (id_oprogramowanie_temp)) ENGINE = InnoDB
 CHARACTER SET utf8
 AUTO_INCREMENT = 0;
@@ -74,19 +72,9 @@ Create table komputery_temp (
 CHARACTER SET utf8
 AUTO_INCREMENT = 0;
 
-Create table komp_opr_temp (
-	id_komputer_temp Smallint NOT NULL,
-	id_oprogramowanie_temp Smallint NOT NULL,
-	id_komp_opr_temp Smallint NOT NULL AUTO_INCREMENT,
- Primary Key (id_komp_opr_temp)) ENGINE = InnoDB
-CHARACTER SET utf8
-AUTO_INCREMENT = 0;
-
-
 Alter table komp_opr add Foreign Key (id_komputer) references komputery (id_komputer) on delete cascade on update cascade;
 Alter table komp_opr add Foreign Key (id_oprogramowanie) references oprogramowanie (id_oprogramowanie) on delete cascade on update cascade;
-Alter table komp_opr_temp add Foreign Key (id_oprogramowanie_temp) references oprogramowanie_temp (id_oprogramowanie_temp) on delete cascade on update cascade;
-Alter table komp_opr_temp add Foreign Key (id_komputer_temp) references komputery_temp (id_komputer_temp) on delete cascade on update cascade;
+Alter table oprogramowanie_temp add Foreign Key (id_komputer_temp) references komputery_temp (id_komputer_temp) on delete cascade on update cascade;
 
 
 /* Users permissions */
