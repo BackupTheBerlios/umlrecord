@@ -27,12 +27,11 @@ AUTO_INCREMENT = 0;
 
 Create table oprogramowanie (
 	id_oprogramowanie Smallint NOT NULL,
-	nazwa Varchar(30) NOT NULL,
-	producent Varchar(20) NOT NULL,
+	nazwa Varchar(70) NOT NULL,
+	producent Varchar(60) NOT NULL,
 	wersja Varchar(20),
 	nr_seryjny Varchar(30) NOT NULL,
 	klucz_licencji Varchar(30),
-	data_zakupu Date NOT NULL,
 	termin_licencji Date NOT NULL,
 	typ_licencji Varchar(15),
 	ilosc_stanowisk Int,
@@ -46,7 +45,7 @@ Create table oprogramowanie_temp (
 	id_oprogramowanie_temp Smallint NOT NULL AUTO_INCREMENT,
 	id_komputer_temp Smallint NOT NULL,
 	nazwa Varchar(70) NOT NULL,
-	producent Varchar(20),
+	producent Varchar(60),
 	wersja Varchar(20),
 	nr_seryjny Varchar(30),
 	klucz_licencji Varchar(30),
