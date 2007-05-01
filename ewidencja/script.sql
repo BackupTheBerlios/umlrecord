@@ -4,14 +4,18 @@ Modified		2007-03-12
 Project		
 Model		
 Company		
-Author		Tomek Pietrzyk
+Author		
 Version		
 Database		mySQL 5 
 */
 
 
+
+
+
+
+
 drop table IF EXISTS oprogramowanie_temp;
-drop table IF EXISTS komputery_temp;
 drop table IF EXISTS komp_opr;
 drop table IF EXISTS oprogramowanie;
 drop table IF EXISTS komputery;
@@ -50,17 +54,8 @@ Create table komp_opr (
 DEFAULT CHARACTER SET utf8
 AUTO_INCREMENT = 0;
 
-Create table komputery_temp (
-	id_komputer_temp Smallint NOT NULL AUTO_INCREMENT,
-	nazwa Varchar(20) NOT NULL,
-	numer_ip Varchar(15) NOT NULL,
- Primary Key (id_komputer_temp)) ENGINE = InnoDB
-DEFAULT CHARACTER SET utf8
-AUTO_INCREMENT = 0;
-
 Create table oprogramowanie_temp (
 	id_oprogramowanie_temp Smallint NOT NULL AUTO_INCREMENT,
-	id_komputer_temp Smallint NOT NULL,
 	nazwa Varchar(60) NOT NULL,
 	producent Varchar(30),
 	wersja Varchar(20),
@@ -72,25 +67,15 @@ DEFAULT CHARACTER SET utf8
 AUTO_INCREMENT = 0;
 
 
+
+
+
+
+
+
+
 Alter table komp_opr add Foreign Key (id_komputer) references komputery (id_komputer) on delete cascade on update cascade;
 Alter table komp_opr add Foreign Key (id_oprogramowanie) references oprogramowanie (id_oprogramowanie) on delete cascade on update cascade;
-Alter table oprogramowanie_temp add Foreign Key (id_komputer_temp) references komputery_temp (id_komputer_temp) on delete cascade on update cascade;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Users permissions */
 
 
 
